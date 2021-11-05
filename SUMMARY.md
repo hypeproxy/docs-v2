@@ -7,9 +7,11 @@
 
 * [API Authentication](basic-concepts/authentication.md)
 * [IP Rotation](basic-concepts/ip-rotation.md)
+* [Asynchronous Operations](basic-concepts/asynchronous-operations.md)
 
 ## API Documentation
 
+* [Authentication](api-documentation/authentication.md)
 * [Order Process](api-documentation/order-process-1/README.md)
   * [Order Validation](api-documentation/order-process-1/order-validation.md)
   * [Order Creation](api-documentation/order-process-1/order-creation.md)
