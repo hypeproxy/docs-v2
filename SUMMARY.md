@@ -1,11 +1,10 @@
 # Table of contents
 
-* [Welcome to HypeProxy.io](README.md)
+* [Official API Documentation](README.md)
 * [Version Changelog](version-changelog.md)
 
 ## Basic Concepts
 
-* [Introduction](basic-concepts/base-concepts.md)
 * [API Authentication](basic-concepts/authentication.md)
 * [IP Rotation](basic-concepts/ip-rotation.md)
 
