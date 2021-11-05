@@ -1,5 +1,7 @@
 ---
 description: Understand the basics of the Official HypeProxy.io API and how it works.
+cover: .gitbook/assets/Screenshot 2021-07-01 at 16.33.09.png
+coverY: 0
 ---
 
 # Official API Documentation

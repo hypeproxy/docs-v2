@@ -2,10 +2,6 @@
 
 ## Login and Get Authentication JWT token
 
-{% swagger src="../.gitbook/assets/swagger.json" path="undefined" method="undefined" %}
-[swagger.json](../.gitbook/assets/swagger.json)
-{% endswagger %}
-
 ## Retrieve Your Token
 
 There are two ways to get your JWT token as described bellow.
