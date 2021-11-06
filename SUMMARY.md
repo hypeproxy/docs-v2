@@ -18,6 +18,7 @@
 * [Generic Endpoints](api-documentation/generic-endpoints/README.md)
   * [Products](api-documentation/generic-endpoints/products.md)
 * [Order Process](api-documentation/order-process.md)
+* [Proxy Insight](api-documentation/proxy-insight.md)
 
 ## Get More <a href="more" id="more"></a>
 

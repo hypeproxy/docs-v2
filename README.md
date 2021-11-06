@@ -6,12 +6,6 @@ coverY: 0
 
 # Official API Documentation
 
-{% hint style="warning" %}
-#### Under Construction API
-
-Our API is currently under development and will be available soon.
-{% endhint %}
-
 ## Introduction
 
 We are proud to introducting `HypeProxy.io v2.1 API` that bring many improvements!
