@@ -14,8 +14,8 @@ Since the beginning of HypeProxy.io we have provided a pretty poor API, this new
 
 This `v1` API will continue to work through the address: [https://api.hypeproxy.io/v1/](https://api.hypeproxy.io/v1/)
 
-{% content-ref url="basic-concepts/lets-get-started.md" %}
-[lets-get-started.md](basic-concepts/lets-get-started.md)
+{% content-ref url="basic-concepts/getting-started.md" %}
+[getting-started.md](basic-concepts/getting-started.md)
 {% endcontent-ref %}
 
 ## API Swagger

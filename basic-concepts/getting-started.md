@@ -1,8 +1,8 @@
-# Let's Get Started
+# Getting Started
 
-The `HypeProxy.io` API is organized around a [REST](https://en.wikipedia.org/wiki/Representational\_state\_transfer) architecture, all endpoints need to be [authenticated](authentication.md) and and keep in mind that this documentation describes only the `v2` API.
+The `HypeProxy.io` API is organized around a [REST](https://en.wikipedia.org/wiki/Representational\_state\_transfer) architecture, all endpoints need to be [authenticated](authentication.md), and keep in mind that this documentation describes only the `v2` API.
 
-Following the REST standard, you will often find a listing endpoint, an endpoint for retrieving a particular item and sometimes a modification and/or deletion endpoint.
+Following the REST standard, you will often find a listing endpoint, an endpoint for retrieving a particular item, and sometimes a modification and/or deletion endpoint.
 
 ## How to connect to the API?
 
@@ -21,7 +21,7 @@ Our API requires the use of a [JWT token](https://jwt.io/introduction) which can
 [authentication.md](authentication.md)
 {% endcontent-ref %}
 
-## Perform an Health Check
+## Perform a Health Check
 
 The API contains a health check endpoint that you can use if you have any impressions of failure.
 

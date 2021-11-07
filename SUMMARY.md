@@ -5,7 +5,7 @@
 
 ## Basic Concepts
 
-* [Let's Get Started](basic-concepts/lets-get-started.md)
+* [Getting Started](basic-concepts/getting-started.md)
 * [API Authentication](basic-concepts/authentication.md)
 * [Asynchronous Operations](basic-concepts/asynchronous-operations.md)
 * [API Rate Limit](basic-concepts/api-rate-limit.md)
@@ -47,4 +47,5 @@
 
 ***
 
+* [hpro-ctl](hpro-ctl.md)
 * [hproxy-ctl](https://github.com/hypeproxy/hproxy-ctl)

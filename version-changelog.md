@@ -6,8 +6,7 @@ description: This page describe all of our platform changes.
 
 ## HypeProxy.io v2.1
 
-* **ENHANCED** Migrating to Blazor Webassembly instead of Blazor Server
-* **ENHANCED** Complete rebuild using new template
+TODO
 
 ## **HypeProxy.io v2.0**
 
