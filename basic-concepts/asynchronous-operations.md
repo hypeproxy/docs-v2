@@ -6,7 +6,7 @@ In exchange, you will get a request ID that will allow you to consult the status
 
 ## Example of Response
 
-This is an example of response from an asynchronous operation ([Manual IP Renew](../api-documentation/ip-rotation.md#execute-manual-rotation) in this case).
+This is an example of response from an asynchronous operation ([Manual IP Renew](../api/ip-rotation.md#execute-manual-rotation) in this case).
 
 {% embed url="https://gist.github.com/clintnetwork/a84acbfdb84e9a9aaee9864f04ebbb14" %}
 the field `requestId` in the `data` object can be used to retrieve the related operation.

@@ -10,17 +10,21 @@
 * [Asynchronous Operations](basic-concepts/asynchronous-operations.md)
 * [API Rate Limit](basic-concepts/api-rate-limit.md)
 
-## API Documentation
+## API Documentation <a href="api" id="api"></a>
 
-* [IP Rotation / Renewing](api-documentation/ip-rotation.md)
-* [Proxy Insight](api-documentation/proxy-insight.md)
-* [Order Process](api-documentation/order-process-1/README.md)
-  * [Order Validation](api-documentation/order-process-1/order-validation.md)
-  * [Order Creation](api-documentation/order-process-1/order-creation.md)
-* [Generic Endpoints](api-documentation/generic-endpoints/README.md)
-  * [Products](api-documentation/generic-endpoints/products.md)
-* [Order Process](api-documentation/order-process.md)
-* [Proxy Insight](api-documentation/proxy-insight-1.md)
+* [IP Rotation / Renewing](api/ip-rotation.md)
+* [Proxy Insight](api/proxy-insight.md)
+* [Order Process](api/order-process-1/README.md)
+  * [Order Validation](api/order-process-1/order-validation.md)
+  * [Order Creation](api/order-process-1/order-creation.md)
+* [Generic Endpoints](api/generic-endpoints/README.md)
+  * [Products](api/generic-endpoints/products.md)
+* [Order Process](api/order-process.md)
+* [Proxy Insight](api/proxy-insight-1.md)
+
+## V1 Documentation <a href="v1" id="v1"></a>
+
+* [API Reference](v1/api-reference.md)
 
 ## API Reference <a href="reference" id="reference"></a>
 
