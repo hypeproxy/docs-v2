@@ -6,7 +6,9 @@
 
 Keep in mind that if we were to introduce new products that are not just proxies (like a VPN service for example) we will keep the term `Proxy Insight`.
 
-## API Reference
+All these endpoints require the identifier of your product (called `productDetailsId`).
+
+## API Reference [🔗](../reference/insights.md)
 
 Proxy Insight currently contains 4 endpoints, each rate limited to 1 call every 30 seconds.
 

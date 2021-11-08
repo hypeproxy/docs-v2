@@ -17,7 +17,7 @@ We currently support to kinds of IP rotation:
 
 ### Get the IP Renew
 
-Get the renew parameters for a specific [product](../reference/productdetail.md).
+Get the renew parameters for a specific [product](../reference/orders-and-purchases/product-details.md).
 
 {% swagger src="../.gitbook/assets/swagger.json" path="/v2/Renews/{productDetailsId}" method="get" %}
 [swagger.json](../.gitbook/assets/swagger.json)
@@ -25,7 +25,7 @@ Get the renew parameters for a specific [product](../reference/productdetail.md)
 
 ### Set a IP Renew Delay
 
-Define the delay of renew for a specific [product](../reference/productdetail.md), the minimum renew is 1 minute.
+Define the delay of renew for a specific [product](../reference/orders-and-purchases/product-details.md), the minimum renew is 1 minute.
 
 {% swagger src="../.gitbook/assets/swagger.json" path="/v2/Renews/{productDetailsId}" method="post" %}
 [swagger.json](../.gitbook/assets/swagger.json)
@@ -33,7 +33,7 @@ Define the delay of renew for a specific [product](../reference/productdetail.md
 
 ### Delete an IP Renew
 
-Remove the IP renew feature for a specific [product](../reference/productdetail.md).
+Remove the IP renew feature for a specific [product](../reference/orders-and-purchases/product-details.md).
 
 {% swagger src="../.gitbook/assets/swagger.json" path="/v2/Renews/{productDetailsId}" method="delete" %}
 [swagger.json](../.gitbook/assets/swagger.json)

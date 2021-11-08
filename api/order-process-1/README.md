@@ -8,6 +8,8 @@ description: How order on HypeProxy.io using the API?
 
 Our payment process is split into two steps, the first step for validation and the second step for order creation, both endpoints use basically same [JSON](https://www.json.org/json-en.html) model.
 
+Our order process is divided into two phases, the first consists of validating the order according to a defined model such as a type of product, a desired location, a quantity etc. and the second is the purchasing.
+
 Here are the two related endpoints:
 
 ```
@@ -19,8 +21,8 @@ Here are the two related endpoints:
 
 Both of endpoints take the same JSON model, containing these properties:
 
-* **Product Id**: Which [Product](../../reference/product.md) you want to order.
-* **Location Id**: In which [Location](../../reference/location.md) you want to order.
+* **Product Id**: Which [Product](broken-reference) you want to order.
+* **Location Id**: In which [Location](broken-reference) you want to order.
 * **Payment Method**: Define the payment method to use (Credit Card or Cryptocurrencies)
 * **Billing Period**: Define the payment term of the order (Like Month, Week or Year)
 * **Quantity**: How many products do you want to order?&#x20;

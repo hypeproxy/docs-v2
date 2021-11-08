@@ -1,6 +1,8 @@
-# hpro-ctl
+# Command Line Interface (CLI)
 
-![](<.gitbook/assets/carbon (3).png>)
+Our new API permits the use of our first command line tool: `hproxy-ctl`.
+
+## Take a Look
 
 ```
 
@@ -22,3 +24,6 @@ FLAGS:
 OPTIONS:
     -c, --config <config>    Specify the configuration file
 ```
+
+## Download & Install
+

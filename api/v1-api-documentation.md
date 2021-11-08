@@ -1,4 +1,4 @@
-# API Reference
+# V1 API Documentation
 
 ## Introduction
 
@@ -6,7 +6,7 @@
 When we'll migrate to HypeProxy.io v2.1 this API will no longer be operational.
 {% endhint %}
 
-`HypeProxy.io v1 API` offers a JWT authentication, it's however possible to [renew the IP](api-reference.md#renew-ip) only with its proxy ID.
+`HypeProxy.io v1 API` offers a JWT authentication, it's however possible to [renew the IP](v1-api-documentation.md#renew-ip) only with its proxy ID.
 
 If you need more help with the API v1 please feel free to join our [live chat](https://go.crisp.chat/chat/embed/?website\_id=c96435ae-a92e-469f-b556-6befad2ff1d8).
 

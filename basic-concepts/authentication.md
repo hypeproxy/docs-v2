@@ -35,6 +35,61 @@ curl "https://api.hypeproxy.io/v2/Profile?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6Ikp
 
 To authenticate you need to use the endpoint `/v2/Authentication/SignIn`.
 
-{% swagger src="../.gitbook/assets/swagger.json" path="undefined" method="undefined" %}
-[swagger.json](../.gitbook/assets/swagger.json)
+{% swagger method="post" path="/v2/Authentication/SignIn" baseUrl="https://api.hypeproxy/io" summary="Login and Get JWT Token." %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="email" type="String" required="true" %}
+User email
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="password" type="String" required="true" %}
+User password
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="otpCode" type="String" %}
+User OTP, if you enabled 2FA
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Return your JWT Token (valid for 7 days)" %}
+```javascript
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+```
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="User doesn't exists." %}
+```javascript
+{
+    "errors": "This user doesn't exists.",
+    "message": "Request failed.",
+    "statusCode": "BadRequest",
+    "requestDetails": {
+        "userId": "00000000-0000-0000-0000-000000000000",
+        "endpoint": "/v2/Authentication/SignIn",
+        "date": "2021-11-08T12:16:20.6210678Z",
+        "timestamp": 1636373780,
+        "userAgent": "PostmanRuntime/7.28.4",
+        "clientIp": "::1"
+    }
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="Incorrect password." %}
+```javascript
+{
+    "message": "Incorrect password.",
+    "statusCode": "Forbidden",
+    "requestDetails": {
+        "userId": "00000000-0000-0000-0000-000000000000",
+        "endpoint": "/v2/Authentication/SignIn",
+        "date": "2021-11-08T12:18:18.1897927Z",
+        "timestamp": 1636373898,
+        "userAgent": "PostmanRuntime/7.28.4",
+        "clientIp": "::1"
+    }
+}
+```
+{% endswagger-response %}
 {% endswagger %}

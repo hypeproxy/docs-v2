@@ -17,35 +17,40 @@
 * [Order Process](api/order-process-1/README.md)
   * [Order Validation](api/order-process-1/order-validation.md)
   * [Order Creation](api/order-process-1/order-creation.md)
-* [Generic Endpoints](api/generic-endpoints/README.md)
-  * [Products](api/generic-endpoints/products.md)
-* [Order Process](api/order-process.md)
-* [Proxy Insight](api/proxy-insight-1.md)
-
-## V1 Documentation <a href="v1" id="v1"></a>
-
-* [API Reference](v1/api-reference.md)
+* [V1 API Documentation](api/v1-api-documentation.md)
 
 ## API Reference <a href="reference" id="reference"></a>
 
-* [Purchases](reference/purchases.md)
-* [Product](reference/product.md)
-* [ProductDetail](reference/productdetail.md)
-* [Credential](reference/credential.md)
-* [Purchase](reference/purchase.md)
-* [Location](reference/location.md)
-* [Page 3](reference/page-3.md)
+* [\[Generic\] Products](reference/generic-products.md)
+* [\[Generic\] Bays](reference/generic-bays.md)
+* [\[Generic\] Locations](reference/generic-locations.md)
+* [\[Generic\] Coupons](reference/generic-coupons.md)
+* [\[Generic\] News](reference/generic-news.md)
+* [Billing](reference/billing/README.md)
+  * [Invoices](reference/billing/invoices.md)
+* [Orders & Purchases](reference/orders-and-purchases/README.md)
+  * [Orders](reference/orders-and-purchases/orders.md)
+  * [Purchases](reference/orders-and-purchases/purchases.md)
+  * [Product Details](reference/orders-and-purchases/product-details.md)
+  * [Credentials](reference/orders-and-purchases/credentials.md)
+* [Support](reference/support/README.md)
+  * [Tickets](reference/support/tickets.md)
+  * [Ticket Answers](reference/support/ticket-answers.md)
+* [Profile](reference/profile.md)
+* [Insights](reference/insights.md)
+* [Renews](reference/renews.md)
 
-## Get More <a href="more" id="more"></a>
+## Useful Links <a href="links" id="links"></a>
 
 ***
 
 * [HypeProxy.io GitHub](https://github.com/hypeproxy)
+* [Status Page](https://status.hypeproxy.io)
 * [TrustPilot](https://trustpilot.com/review/hypeproxy.io)
 
 ## Tools
 
 ***
 
-* [hpro-ctl](hpro-ctl.md)
+* [Command Line Interface (CLI)](command-line-interface-cli.md)
 * [hproxy-ctl](https://github.com/hypeproxy/hproxy-ctl)

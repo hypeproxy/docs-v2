@@ -1,0 +1,6 @@
+---
+description: Tickets endpoints.
+---
+
+# Tickets
+
